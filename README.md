@@ -24,7 +24,7 @@ And this below code shows how to use module with defining TwilioClient paramente
 
     >>> from twilio_integration import TwilioClient
     >>> class_object = TwilioClient()
-    >>> class_object.send_sms(msg="hello! World", to_number="+919509174065")
+    >>> class_object.send_sms(msg="hello! World", to_number="+91XXXXXXX065")
     {'status': 200, 'details': 'message sent successfully'}
 
 Tests:
